@@ -1,8 +1,14 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 19 05:43:33 2019
+This is my personal Skills acquisition and development Folder. Kindly navigate
+through to see worked on projects leading up to my certification from Udemy
+Machine Learning bootcamp. Topics learnt
 
-@author: emmanuel
-"""
-
+- Data Preprocessing
+- Regression
+- Classification
+- Clustering
+- Association Rule Learning
+- Reinforcement Learning
+- Natural Language Processing
+- Deep Learning
+- Dimensionality Reduction
+- Model Selection and Boosting
