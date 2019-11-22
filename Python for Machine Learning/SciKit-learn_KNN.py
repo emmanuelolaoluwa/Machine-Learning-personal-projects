@@ -1,12 +1,14 @@
 import pandas as pd
 import numpy as np
+
 np.random.seed(1)
 
 paris_listings = pd.read_csv('paris_airbnb.csv')
 paris_listings = paris_listings.loc[np.random.permutation(len(paris_listings))]
 stripped_commas = paris_listings['price'].str.replace(',','')
-stripped_dollars = paris_listings['price'].str.replace('$','')
+stripped_dollars = stripped_commas.str.replace('$','')
 paris_listings['price'] = stripped_dollars.astype('float')
+
 
 train_df = paris_listings.iloc[:6000]
 test_df = paris_listings.iloc[6000:]
